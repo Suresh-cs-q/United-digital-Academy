@@ -1,70 +1,178 @@
-# Getting Started with Create React App
+# United Digital Academy - Premium Learning Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sophisticated React-based learning portal offering free access to premium courses in Forex trading, digital marketing, English communication, and Artificial Intelligence through our partnership with Daman Markets.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+### Premium UI/UX Design
 
-### `npm start`
+- **Enterprise SaaS Aesthetics**: Trillion-dollar company visual standards
+- **Glassmorphism Effects**: Modern design with backdrop blur and transparency
+- **Sophisticated Color Palette**: Deep Sapphire primary with Emerald accents
+- **Premium Typography**: Inter font with perfect hierarchy and spacing
+- **Smooth Animations**: Cubic-bezier transitions and micro-interactions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### AI-Powered Chatbot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Academy AI Tutor**: Intelligent assistant with comprehensive knowledge base
+- **Knowledge Base Integration**: Complete UDA course information and FAQ
+- **Plain Text Responses**: Clean, professional formatting without markdown
+- **Quick Questions**: Pre-set buttons for common inquiries
+- **Floating Label**: "AI Academy Agent" always visible for brand recognition
 
-### `npm test`
+### Course Registration System
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **4-Step Enrollment Process**: Clear pathway to free course access
+- **Daman Markets Integration**: Partner referral system
+- **Form Validation**: Advanced input states with visual feedback
+- **Success Modal**: Professional confirmation workflow
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 or higher)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/Suresh-cs-q/United-digital-Academy.git
+cd United-digital-Academy
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Set up environment variables:
 
-## Learn More
+```bash
+cp .env.example .env
+# Add your Gemini API key to .env
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+Visit `http://localhost:3000` to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎓 Course Offerings
 
-### Analyzing the Bundle Size
+### 1. Forex Trading
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Beginner to advanced strategies
+- Master the foreign exchange market
+- Practical use on MetaTrader 5
 
-### Making a Progressive Web App
+### 2. Digital Marketing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- SEO, SEM, and Social Media marketing
+- Growth strategies for businesses
+- Hands-on projects
 
-### Advanced Configuration
+### 3. English Communication
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Improve fluency and confidence
+- Professional & personal conversation skills
 
-### Deployment
+### 4. Artificial Intelligence (4.8⭐)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Build AI-powered systems
+- Learn intelligent automation & applications
 
-### `npm run build` fails to minify
+## 🤝 Partnership
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Daman Markets Integration
+
+- **Regulated Broker**: UAE Securities & Commodities Authority (License 604020)
+- **Minimum Deposit**: USD 250 for course access
+- **Lifetime Access**: No trading required to maintain course access
+- **Instant Activation**: Course access within 24 hours
+
+## 🛠 Technology Stack
+
+- **Frontend**: React 19.1.1
+- **Styling**: CSS3 with custom properties and modern features
+- **AI Integration**: Google Gemini API
+- **Deployment**: Vercel-ready
+- **Form Handling**: Google Forms integration
+
+## 📱 Responsive Design
+
+- Mobile-first approach
+- Touch-friendly interactions
+- Optimized for all screen sizes
+- Professional mobile experience
+
+## 🔧 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+## 🚀 Deployment
+
+### Vercel Deployment
+
+1. Connect your GitHub repository to Vercel
+2. Set environment variables in Vercel dashboard
+3. Deploy automatically on push to main branch
+
+### Custom Domain (Hostinger)
+
+1. Configure DNS settings in Hostinger
+2. Add custom domain in Vercel
+3. Update domain verification
+
+## 📊 Performance
+
+- **Optimized Bundle**: Tree-shaking and code splitting
+- **Fast Loading**: Efficient asset management
+- **SEO Ready**: Proper meta tags and structure
+- **Web Vitals**: Optimized for Core Web Vitals
+
+## 🎨 Design System
+
+### Color Palette
+
+- **Primary**: Deep Sapphire (#1e40af)
+- **Accent**: Emerald (#059669)
+- **Neutrals**: Sophisticated gray scale
+- **Gradients**: Premium multi-layer effects
+
+### Typography
+
+- **Font**: Inter (400, 500, 600, 700, 800)
+- **Hierarchy**: Perfect scale with proper contrast
+- **Spacing**: Professional letter-spacing and line-height
+
+## 📞 Contact Information
+
+- **Company**: United Digital Academy (UDA)
+- **CEO**: Hamza Zoabi
+- **Phone**: +972 77-221-8883
+- **Email**: info@u-d.academy
+- **Website**: https://www.u-d.academy
+- **Portal**: https://u-d.store
+
+## 📄 License
+
+This project is private and proprietary to United Digital Academy.
+
+## 🤝 Contributing
+
+This is a private repository. For internal contributions, please follow the established code standards and create pull requests for review.
+
+---
+
+**Built with ❤️ by United Digital Academy Development Team**

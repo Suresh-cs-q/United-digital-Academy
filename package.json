@@ -1,5 +1,5 @@
 {
-  "name": "united",
+  "name": "united-digital-academy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,8 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@google/generative-ai": "^0.15.0"
   },
   "scripts": {
     "start": "react-scripts start",
